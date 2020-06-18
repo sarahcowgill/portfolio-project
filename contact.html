@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>My Portfolio</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <style>
+        .form-control {
+            border: 2px solid grey; 
+            border-radius: 0;
+            padding: 0 25px; 
+            line-height: 45px;
+            height: 45px;
+        }
+        .btn-primary {
+            background-color: aquamarine;
+        }
+        .btn-primary:hover {
+            background-color: teal;
+        }
+        h2.section-title {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 24px;
+            letter-spacing: 5px;
+            margin-bottom: 80px;
+        }
+        p.section-description {
+            font-weight: lighter;
+            font-size: 16px;
+        }
+        h2.section-title + p {
+            margin-top: -70px;
+            margin-bottom: 80px;
+        }
+    </style>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">Sarah Cowgill</a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section">
+          <div class="container">
+              <div class="row">
+<div class="col-md-12 text-left">
+    <h2 class="section-title">Contact</h2>
+           </div>
+           <div class="col-md-8 col-md-offset-2">
+               <form id="contact" method="post" class="form" role="form">
+                <div class="row">
+                <div class="col-md-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
+                       </div>
+                    <div class="col-md-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="text" required />
+                    </div>
+                   </div>
+                   <textarea class="form-control" id="message" name="message" placeholder="Message" type="text" rows="5"></textarea>
+               <br>
+               <div class="row">
+                   <div class="col-md-12 form-group">
+                       <button class="btn btn-primary" type="submit">Submit</button>
+                   </div>
+               </div>
+                </form>
+           </div>
+              </div>
+          </div>
+        
+
+          
+      </div>
+</body>

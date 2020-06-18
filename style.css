@@ -1,3 +1,10 @@
-.navbar {
+* {
+    box-sizing: border-box;
+}
+
+ .navbar-brand {
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200px;
     background-color: aquamarine;
 }
